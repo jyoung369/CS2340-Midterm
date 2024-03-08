@@ -41,7 +41,9 @@ public class AppointmentManager {
         /** First, we would create a new Appointment object with the appropriate parameters. 
         The User would be the one requesting the appointment and the Doctor would have to approve or deny it. 
         Next, you would add the appointment object to the list of appointments in the AppointmentManager. 
-        The method would return the created Appointment object. */
+        The method would return the created Appointment object. If there are no doctors recommended in the list, then the user has three options: 
+        the user can change their criteria, pick a different doctor, or book a different time with a different doctor. 
+        This is done until the appointment is either successfully booked or the request is canceled.*/
         return null; 
     }
 
