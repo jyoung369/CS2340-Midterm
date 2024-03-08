@@ -43,12 +43,12 @@ public class AppointmentManager {
 
     /**
      * Recommends doctors based on user symptoms, discomfort level, and insurance coverage.
-     * @param symptoms The symptoms described by the user.
+     * @param symptoms List of symptoms described by the user.
      * @param discomfortLevel The level of discomfort.
      * @param insuranceCoverage Indicates if the user has insurance coverage.
      * @return A list of recommended doctors.
      */
-    public List<Doctor> recommendDoctors(String symptoms, int discomfortLevel, boolean insuranceCoverage) {
+    public List<Doctor> recommendDoctors(List<String> symptoms, int discomfortLevel, boolean insuranceCoverage) {
         return null;
     }
 
