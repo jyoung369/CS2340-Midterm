@@ -38,6 +38,10 @@ public class AppointmentManager {
      * @return The scheduled appointment
      */
     public Appointment scheduleAppointment(User user, Doctor doctor, String details) {
+        /** First, we would create a new Appointment object with the appropriate parameters. 
+        The User would be the one requesting the appointment and the Doctor would have to approve or deny it. 
+        Next, you would add the appointment object to the list of appointments in the AppointmentManager. 
+        The method would return the created Appointment object. */
         return null; 
     }
 
@@ -49,6 +53,13 @@ public class AppointmentManager {
      * @return A list of recommended doctors
      */
     public List<Doctor> recommendDoctors(String symptoms, int discomfortLevel, boolean insurance) {
+        /*
+         * In this method, we will first create a list of doctors whose specialties have correlations with the symptoms felt by the user. Then, we will narrow that list 
+         * down to doctors who are equipped to handle a certain level of discomfort by matching the severity handled by the doctor's specialties. Finally, from there, we 
+         * will narrow the list down to a final one that matches the insurance status of the patient to whether or not the doctor accepts insurance. FOR EXAMPLE, if a doctor 
+         * does not accept insurance and a patient does not have insurance, they can be matched (assuming the list has been narrowed down according to the previous criteria).
+         * In another case, if a doctor accepts insurace and a patient has insurance, they are less likely to be matched depending on the narrowing from the previous criteria.
+         */
         return null;
     }
     /**
