@@ -39,6 +39,10 @@ public class AppointmentManager {
      */
     public Appointment scheduleAppointment(User user, Doctor doctor, String details) {
         return null;
+        /**
+         * How we would implement it: 
+         * First, we would create a new Appointment object with the appropriate parameters. The User would be the one requesting the appointment and the Doctor would have to approve or deny it. Next, you would add the appointment object to the list of appointments in the AppointmentManager. The method would return the created Appointment object. 
+         */
     }
 
     /**
