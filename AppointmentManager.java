@@ -38,7 +38,7 @@ public class AppointmentManager {
      * @return The scheduled appointment.
      */
     public Appointment scheduleAppointment(User user, Doctor doctor, String details) {
-        return null; // Placeholder return
+        return null;
     }
 
     /**
