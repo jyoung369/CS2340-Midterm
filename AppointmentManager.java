@@ -48,7 +48,7 @@ public class AppointmentManager {
      * @param insuranceCoverage Indicates if the user has insurance coverage
      * @return A list of recommended doctors
      */
-    public List<Doctor> recommendDoctors(String symptoms, int discomfortLevel, boolean insuranceCoverage) {
+    public List<Doctor> recommendDoctors(String symptoms, int discomfortLevel, boolean insurance) {
         return null;
     }
     /**
