@@ -46,7 +46,7 @@ public class AppointmentManager {
     }
 
     /**
-     * This recommends doctors based on their availability and skillset.
+     * This recommends doctors based on their availability and skillset
      * @param symptoms The symptoms described by the user
      * @param discomfortLevel The level of discomfort
      * @param insuranceCoverage Indicates if the user has insurance coverage
@@ -66,7 +66,7 @@ public class AppointmentManager {
      * This recommends alternative doctors if the scheduled doctor is not available
      * @param user The user scheduling the appointment
      * @param currentDoctors the list of doctors that the user can currently book from
-     * @return A list of recommended doctors
+     * @return A list of recommended doctors that the user can schedule with 
      */
     public List<Doctor> scheduleAlternativeDoctors(User user, List<Doctor> currentDoctors) {
         // remove Dr.Young (or any doctor that is not available) 
